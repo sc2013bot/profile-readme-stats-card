@@ -28,7 +28,7 @@ jobs:
           git config --global user.name 杨人瑞
           git config --global user.email yangrenruiyrr@163.com
 
-          git add github-readme-stats_YANGRENRUIYRR.svg
+          git add .
 
           git commit -m "[${{ github.workflow }}] Upload on $(date '+%Y-%m-%d %H:%M:%S')" || echo 1
 
