@@ -23,12 +23,11 @@ jobs:
           curl "https://github-readme-activity-graph.vercel.app/graph?username=sc2013bot&theme=github-compact&hide_border=true&area=true" -Ls -o graph_SONGCI.svg
           curl "https://github-readme-stats.vercel.app/api/top-langs?username=sc2013bot&theme=transparent&include_all_commits=true&show_icons=true&bg_color=DEG,FF0000,FFFF00" -Ls -o top-langs_SONGCI.svg
           echo "$(date '+%Y-%m-%d %H:%M:%S')">upadte_time
-          
 
       - name: Commit & Push
         run: |
-          git config --global user.name sc2013bot
-          git config --global user.email songci2013@163.com
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
           git add .
 
