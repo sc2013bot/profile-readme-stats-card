@@ -19,16 +19,16 @@ jobs:
 
       - name: Fetch
         run: |
-          curl "https://github-readme-stats.vercel.app/api?username=yangrenruiyrr&theme=transparent&include_all_commits=true&show_icons=true&bg_color=DEG,FF0000,FFFF00" -Ls -o github-readme-stats_YANGRENRUIYRR.svg
-          curl "https://github-readme-activity-graph.vercel.app/graph?username=yangrenruiyrr&theme=github-compact&hide_border=true&area=true" -Ls -o graph_YANGRENRUIYRR.svg
-          curl "https://github-readme-stats.vercel.app/api/top-langs?username=yangrenruiyrr&theme=transparent&include_all_commits=true&show_icons=true&bg_color=DEG,FF0000,FFFF00" -Ls -o top-langs_YANGRENRUIYRR.svg
+          curl "https://github-readme-stats.vercel.app/api?username=sc2013bot&theme=transparent&include_all_commits=true&show_icons=true&bg_color=DEG,FF0000,FFFF00" -Ls -o github-readme-stats_-SONGCI.svg
+          curl "https://github-readme-activity-graph.vercel.app/graph?username=sc2013bot&theme=github-compact&hide_border=true&area=true" -Ls -o graph_SONGCI.svg
+          curl "https://github-readme-stats.vercel.app/api/top-langs?username=sc2013bot&theme=transparent&include_all_commits=true&show_icons=true&bg_color=DEG,FF0000,FFFF00" -Ls -o top-langs_SONGCI.svg
           echo "$(date '+%Y-%m-%d %H:%M:%S')">upadte_time
           
 
       - name: Commit & Push
         run: |
-          git config --global user.name 杨人瑞
-          git config --global user.email yangrenruiyrr@163.com
+          git config --global user.name 宋词
+          git config --global user.email songci2013@163.com
 
           git add .
 
