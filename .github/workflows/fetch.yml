@@ -27,7 +27,7 @@ jobs:
 
       - name: Commit & Push
         run: |
-          git config --global user.name 宋词
+          git config --global user.name sc2013bot
           git config --global user.email songci2013@163.com
 
           git add .
